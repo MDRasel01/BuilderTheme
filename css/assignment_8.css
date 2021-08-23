@@ -1,0 +1,403 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif; 
+ */
+
+
+ h1, h2, h3, h4, h5, h6{
+    font-family: 'Oswald', sans-serif;
+ }
+
+ p{
+    font-family: 'Roboto', sans-serif;
+    color: #777777;
+ }
+
+
+/* topber spcial media code start here   */
+
+.d-flex{
+    justify-content: space-between;
+}
+.social_icon ul li{
+     list-style: none;
+     text-decoration: none;
+     display: inline-block;
+}
+
+.social_icon ul li a i{
+    font-size: 12px;
+    color: #ccc;
+}
+
+
+.topbar_2nd_btn{
+    background-color: #fab700;
+    border: navajowhite;
+    border-radius: 4px;
+    padding: 9px 8px;
+    color: white;
+
+}
+
+.btn-secondary {
+    color: #777777;
+    background-color: #e7e7ec;
+    margin-left: 5px;
+    border: none;
+}
+
+.topbar_socail{
+    border-bottom: 1px solid #eeeeee;
+    width: 100%;
+}
+
+.nav-item{
+    padding-left: 12px;
+}
+
+.nav-link{
+color: #222222;
+font-size: 12px;
+font-weight: 500;
+}
+
+.nav-link:hover{
+color: #817e75;
+}
+
+.navbar-expand-lg {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    padding: 31px 0px;
+}
+/* topber spcial media code end here  */
+
+
+
+/* banner code start for here */
+
+.banner{
+    background-image: url('../image/home-banner.jpg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.banner_all_text h3, .banner_all_text p{
+    color: white;
+}
+
+
+.banner_all_text span{
+    background-color: #fab700;
+    color: black;
+    border-radius: 4px;
+}
+
+.banner_all_text h3{
+    font-size: 60px;
+    margin-bottom: 35px;
+}
+
+.banner_all_text{
+    margin: 100px 0px;
+}
+
+.black_btn{
+    border: none;
+    font-size: 12px;
+    margin-top: 40px;
+    background-color: #222222;
+    color: orange;
+    border-radius: 5px;
+    padding: 18px 50px;
+    font-weight: bold;
+    transition: .6Offered Services code start heres;
+}
+
+.black_btn:hover{
+    background-color: #FAB700;
+    color: black;
+    font-weight: bold;
+    transition: .6Offered Services code start heres;
+}
+
+/* banner code ens for here */
+
+
+/* Offered Services code start here */
+.offerd_servies{
+    margin: 100px 0px 50px 0px;
+}
+.all_services_item{
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.service_item:hover{
+    box-shadow: 10px 0px 15px #ddd0d0;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+.service_item h4{
+    color: #222222;
+}
+
+.service_item p{
+    color: #797979;
+    font-weight: 300;
+    font-size: 14px;
+    padding: 0px 45px;
+}
+/* Offered Services code end here */
+
+
+/* Latest Projects code start here */
+.projects_top{
+    margin: 50px 0px;
+}
+
+.projects_gallery{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.gallery_image img {
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+.gallery_image{
+    position: relative;
+}
+
+.hover_text{
+    cursor: pointer;
+    top: 0px;
+    position: absolute;
+    background-color: rgb(255, 183, 50);
+    width: 100%;
+    padding: 18px;
+    text-align: center;
+    font-size: 14px;
+    height: 100%;
+    opacity: 0;
+    transition: .5s;
+}
+
+.hover_text:hover{
+    opacity: 1;
+    transition: .5s;
+
+}
+
+/* Latest Projects code end here */
+
+
+/* Some Features code start here */
+.Some_Features{
+    margin: 50px 0px;
+}
+
+.f_item{
+    padding: 40px 21px;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    margin: 20px;  
+}
+
+.features_grid{
+display: grid;
+grid-template-columns: auto auto auto;
+}
+
+.f_item h4{
+    font-size: 18px;
+    color: #222;
+    font-weight: 500;
+}
+
+.f_item i{
+    font-size: 24px;
+    padding-right: 10px;
+}
+
+.f_item:hover{
+    box-shadow: 10px 10px 31px 1px #e7e7e7;
+}
+
+
+.f_item h4:hover{
+    color: orange;
+}
+
+.f_item i:hover{
+    color: orange;
+}
+
+.people_profile{
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    padding: 29px 49px;
+}
+
+
+.profile_img img {
+    padding-right: 30px;
+    height: 50px;
+    width: 80px;
+}
+
+.profile_text h4{
+font-size: 18px;
+}
+
+.profile_text p{
+    font-size: 14px;
+}
+
+.profile_text h4, .profile_text i{
+    margin: 0px;
+}
+
+.some_people{
+    background-color: #f9f9ff;
+}
+/* Some Features code end here */
+
+
+/* company logo sier code start here */
+.comny_logo_slider{
+    margin: 120px 120px;
+    text-align: center;
+}
+
+.logo{
+    padding-right: 66px;
+    opacity: .6;
+    height: 100%;
+    width: auto;  
+}
+
+.logo:hover{
+    opacity: 1;
+}
+/* company logo sier code end here */
+
+/* footer section code start here */
+.footer{
+    background-color: #222;
+}
+
+.about_us h6, .contact_us h6, .newslater h6{
+    color: white;
+    font-size: 24px;
+    margin-bottom: 28px;
+}
+
+.social_icon_footer ul li i{
+    color: white;
+    font-size: 14px;
+    background-color: black;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.social_icon_footer ul li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.social_icon_footer{
+    text-align: right;
+}
+
+.social_icon_footer ul li i:hover{
+    background-color: orange;
+    color: black;
+}
+
+.footer{
+    padding: 100px 30px;
+}
+
+.about_us p, .contact_us p, .newslater p{
+    font-size: 14px;
+    color: #777777;
+    margin: 0px;
+    line-height: 24px;
+}
+
+.about_us p{
+    padding-right: 27px;
+
+}
+
+.footer_p p{
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.footer_p a{
+    color: #fab700;
+    text-decoration: none;
+}
+
+.telphone{
+    color: #fab700;
+    font-size: 24px;
+text-decoration: none;
+}
+
+.telphone:hover{
+    color: #fab700;
+}
+
+input{
+    border: none;
+    border-radius: 50px;
+    width: 100%;
+    padding: 9px 0px 10px 0px;
+}
+
+form{
+    position: relative;
+    margin-top: 40px;
+}
+
+button{
+    position: absolute;
+    right: 0px;
+    border: none;
+    background-color: #fab700;
+    height: 35px;
+    width: 35px;
+    border-radius: 50px;
+    line-height: 35px;
+    text-align: center;
+    font-weight: 400;
+}
+
+button::placeholder{
+    padding-left: 10px;
+}
+/* footer section code end here */
+
+
+
